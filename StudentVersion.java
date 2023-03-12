@@ -51,7 +51,7 @@ public class StudentVersion {
             if (count == 1) {
                 System.out.print("Enter 1st number: ");
             } else {
-                System.out.println("Enter 2nd number: ");
+                System.out.print("Enter 2nd number: ");
             }
             Scanner reader = new Scanner(System.in);
             try {
