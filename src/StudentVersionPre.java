@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class StudentVersion {
+public class StudentVersionPre {
     public static void main(String[] args) {
         boolean run = true;
         String choice;
@@ -51,7 +51,7 @@ public class StudentVersion {
             if (count == 1) {
                 System.out.print("Enter 1st number: ");
             } else {
-                System.out.print("Enter 2nd number: ");
+                System.out.println("Enter 2nd number: ");
             }
             Scanner reader = new Scanner(System.in);
             try {
@@ -107,7 +107,7 @@ public class StudentVersion {
 
     public static double divideMethod(double n, double m){
         System.out.println("When dividing the numbers");
-        return (n / m);
+        return ((double)n / m);
     }
 
     public static void display(double sum){
